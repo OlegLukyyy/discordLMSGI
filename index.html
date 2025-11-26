@@ -3,28 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Discord</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <header>
-      <h1>DC</h1>
-    </header>
-    <main>
-      <section class="principal">
-        <div class="contenedor">
+    <header></header>
+    <main class="principal">
+      <div class="contenedor">
+        <div class="inicio">
           <div class="bienvenida">
-            <p>Welcome back!</p>
-            <p>We're so excited to see you again!</p>
+            <p class="saludo">¡Hola de nuevo!</p>
+            <p class="alegria">¡Nos alegramos mucho de volver a verte!</p>
           </div>
-          <p>Email or phone number</p>
+          <p>Correo electrónico o numero de teléfono</p>
           <input class="usuario" />
-          <p>Password</p>
-          <input class="contraseña" />
-          <button class="registro">Log in</button>
+          <p>Contraseña</p>
+          <input class="contrasena" />
+          <p class="sugerencia">¿Has olvidado la contraseña?</p>
+          <form action="menu.html">
+            <!-- para que el boton redirija a otra página -->
+            <button class="registro">Iniciar Sesión</button>
+          </form>
+          <p class="sugerencia">¿Necesitas una cuenta? Registrarse</p>
         </div>
-      </section>
+      </div>
     </main>
   </body>
 </html>
